@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="stylesheet" type="text/css" href="styl.css">
+</head>
+<body>
+
+<!-- Button -->
+<button onclick="toggleNav()" > 
+<span class="fa fa-align-justify fa-2x"></span>
+</button>
+
+<!-- Navbar -->
+<div class="navbar">
+	<a href="#" class="navbar--link">
+		<span class="far fa-folder-open"></span>Home
+	</a>
+	<a href="#" class="navbar--link">
+		<span class="fa fa-user-md"></span>About
+	</a>
+	<a href="#" class="navbar--link">
+		<span class="fa fa-plus-square"></span>Contact us
+	</a>
+	<a href="#" class="navbar--link">
+		<span class="fab fa-atlassian"></span>Blog
+	</a>
+</div>
+
+
+
+<!-- js code -->
+<script  >
+	
+	// toggle function
+	function toggleNav(){
+		document.querySelector(".navbar").classList.toggle("navbar--open");
+	}
+
+</script>
+</body>
+</html>
